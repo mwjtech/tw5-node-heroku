@@ -1,10 +1,11 @@
 {
   "name": "tw5-node-heroku",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "tiddlywiki5 on node.js hosted on heroku",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,13 @@
     "node",
     "heroku"
   ],
-  "author": "mwj",
+  "author": "mwj <mwj@mwjtech.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mwjtech/tw5-node-heroku/issues"
   },
-  "homepage": "https://github.com/mwjtech/tw5-node-heroku"
+  "homepage": "https://github.com/mwjtech/tw5-node-heroku",
+  "dependencies": {
+    "tiddlywiki": "~5.1.2"
+  }
 }
