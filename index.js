@@ -1,1 +1,1 @@
-web: node index.js
+var tw5 = require('tiddlywiki');
